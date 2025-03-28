@@ -91,6 +91,7 @@ def num_summary(data, var):
   import warnings
   warnings.filterwarnings("ignore")
 
+
   # title
   col = data.loc[:, var].copy()
   display_html(size=2, content=var)
